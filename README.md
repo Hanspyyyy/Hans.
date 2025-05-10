@@ -1,20 +1,21 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="hans" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hakiman - Portofolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <style>
     body, html {
       margin: 0;
-      padding: 0px;
+      padding: 0;
       height: 100%;
       font-family: 'Poppins', sans-serif;
       color: white;
       text-align: center;
-      overflow: hidden;
       background: black url('alok3.gif') no-repeat center center fixed;
       background-size: cover;
+      overflow: hidden;
     }
 
     .container {
@@ -25,7 +26,6 @@
 
     .profile-img {
       width: 100px;
-      height: auto;
       border-radius: 100%;
       border: 3px solid white;
     }
@@ -110,20 +110,20 @@
       <div id="nameDisplay" class="typing-text">HAKIMAN NURHOLIS</div>
     </div>
     <p>INFORMATICS ENTHUSIAST 
-        TECH>_GENERALIS|GAME|CYBER|CODE </p>
+       TECH>_GENERALIS | GAME | CYBER | CODE</p>
 
     <div class="social-icons">
-      <a href="https://www.tiktok.com/@hans_.py?_t=ZS-8wFFLQvU5Bf&_r=1" target="_blank"><img src="tiktok1.png" alt="TikTok"></a>
+      <a href="https://www.tiktok.com/@hans_.py" target="_blank"><img src="tiktok1.png" alt="TikTok"></a>
       <a href="https://www.instagram.com/hakiman_nurkholis" target="_blank"><img src="ig.png" alt="Instagram"></a>
       <a href="https://www.youtube.com/@Hans.pyyyyy" target="_blank"><img src="yt.png" alt="YouTube"></a>
-      <a href="hanspyyyy//github.com/hans_.pyy/" target="_blank"><img src="gt.png" alt="GitHub"></a>
+      <a href="https://github.com/hans-.pyy" target="_blank"><img src="gt.png" alt="GitHub"></a>
       <a href="https://t.me/hans_.py" target="_blank"><img src="tl.png" alt="Telegram"></a>
       <a href="https://www.facebook.com/profile.php?id=61576289065160" target="_blank"><img src="fb.png" alt="Facebook"></a>
     </div>
 
     <div class="buttons">
       <a href="https://piandi.vercel.app" target="_blank">Portofolio</a>
-      <a href="https://piandi.vercel.app/#achievements" target="_blank">Pencapaian </a>
+      <a href="https://piandi.vercel.app/#achievements" target="_blank">Pencapaian</a>
       <a href="https://piandi.vercel.app/hans-freefire" target="_blank">Game Hans</a>
     </div>
   </div>
