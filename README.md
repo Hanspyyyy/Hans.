@@ -164,7 +164,7 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
       </a>
       <a href="https://github.com/hans_.pyy/" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="GitHub">
+        <img src="github.png.flaticon.com/512/2111/2111432.png" alt="GitHub">
       </a>
       <a href="https://t.me/hans_.py" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram">
