@@ -87,7 +87,7 @@
     }
 
     .social-icons a img {
-      width: 30px;
+      width: 100px;
       margin: 0 5px;
       filter: brightness(0) invert(1);
       transition: transform 0.3s;
