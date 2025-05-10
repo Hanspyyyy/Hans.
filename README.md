@@ -16,24 +16,24 @@
       height: 100%;
       font-family: 'Poppins', sans-serif;
       color: white;
+      text-align: center;
       background: black url('alok3.gif') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: center;
     }
 
     .container {
       max-width: 500px;
-      padding: 60px 20px;
+      padding: 20px;
     }
 
     .profile-img {
       width: 120px;
       height: 120px;
       object-fit: cover;
-      border-radius: 100%;
+      border-radius: 50%;
       border: 3px solid white;
       margin-bottom: 20px;
     }
@@ -41,24 +41,19 @@
     .name-container {
       font-size: 1.8em;
       margin-bottom: 10px;
+      min-height: 2em;
     }
 
     .typing-text {
       display: inline-block;
-      overflow: hidden;
       white-space: nowrap;
-      border-right: 2px solid white;
-      animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+      overflow: hidden;
+      animation: typing 2s steps(30, end);
     }
 
     @keyframes typing {
       from { width: 0 }
       to { width: 100% }
-    }
-
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: white }
     }
 
     .fade-out {
@@ -154,24 +149,12 @@
     <p>INFORMATICS ENTHUSIAST TECH_GENERALIST | GAME | CYBER | CODE</p>
 
     <div class="social-icons">
-      <a href="https://www.tiktok.com/@hans_.py?_t=ZS-8wFFLQvU5Bf&_r=1" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
-      </a>
-      <a href="https://www.instagram.com/hakiman_nurkholis" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
-      </a>
-      <a href="https://www.youtube.com/@Hans.pyyyyy" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
-      </a>
-      <a href="https://github.com/hans_.pyy/" target="_blank">
-        <img src="github.png.flaticon.com/512/2111/2111432.png" alt="GitHub">
-      </a>
-      <a href="https://t.me/hans_.py" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111644.png" alt="Telegram">
-      </a>
-      <a href="https://www.facebook.com/profile.php?id=61576289065160" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook">
-      </a>
+      <a href="https://www.tiktok.com/@hans_.py?_t=ZS-8wFFLQvU5Bf&_r=1" target="_blank"><img src="tiktok1.png" alt="TikTok"></a>
+      <a href="https://www.instagram.com/hakiman_nurkholis" target="_blank"><img src="ig.png" alt="Instagram"></a>
+      <a href="https://www.youtube.com/@Hans.pyyyyy" target="_blank"><img src="yt.png" alt="YouTube"></a>
+      <a href="https://github.com/hans_.pyy/" target="_blank"><img src="gt.png" alt="GitHub"></a>
+      <a href="https://t.me/hans_.py" target="_blank"><img src="tl.png" alt="Telegram"></a>
+      <a href="https://www.facebook.com/profile.php?id=61576289065160" target="_blank"><img src="fb.png" alt="Facebook"></a>
     </div>
 
     <div class="buttons">
