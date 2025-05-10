@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -13,15 +13,16 @@
       font-family: 'Poppins', sans-serif;
       color: white;
       text-align: center;
-      background: black url('alok3.gif') no-repeat center center fixed;
+      background: black url('https://yourdomain.com/alok3.gif') no-repeat center center fixed;
       background-size: cover;
-      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .container {
-      position: relative;
-      top: 20%;
       z-index: 3;
+      padding: 20px;
     }
 
     .profile-img {
@@ -32,7 +33,7 @@
 
     .name-container {
       margin-top: 10px;
-      font-size: 2em;
+      font-size: 1.8em;
     }
 
     .typing-text {
@@ -67,11 +68,12 @@
 
     .social-icons {
       margin-top: 15px;
+      flex-wrap: wrap;
     }
 
     .social-icons a img {
       width: 30px;
-      margin: 0 8px;
+      margin: 8px;
       filter: brightness(0) invert(1);
       transition: transform 0.3s;
     }
@@ -88,7 +90,8 @@
       display: block;
       margin: 10px auto;
       padding: 12px 24px;
-      width: 250px;
+      width: 80%;
+      max-width: 250px;
       background: white;
       color: black;
       text-decoration: none;
@@ -105,7 +108,7 @@
 <body>
 
   <div class="container">
-    <img src="ui11.png" alt="Foto Profil" class="profile-img" />
+    <img src="https://yourdomain.com/ui11.png" alt="Foto Profil" class="profile-img" />
     <div class="name-container">
       <div id="nameDisplay" class="typing-text">HAKIMAN NURHOLIS</div>
     </div>
@@ -113,12 +116,12 @@
        TECH>_GENERALIS | GAME | CYBER | CODE</p>
 
     <div class="social-icons">
-      <a href="https://www.tiktok.com/@hans_.py" target="_blank"><img src="tiktok1.png" alt="TikTok"></a>
-      <a href="https://www.instagram.com/hakiman_nurkholis" target="_blank"><img src="ig.png" alt="Instagram"></a>
-      <a href="https://www.youtube.com/@Hans.pyyyyy" target="_blank"><img src="yt.png" alt="YouTube"></a>
-      <a href="https://github.com/hans-.pyy" target="_blank"><img src="gt.png" alt="GitHub"></a>
-      <a href="https://t.me/hans_.py" target="_blank"><img src="tl.png" alt="Telegram"></a>
-      <a href="https://www.facebook.com/profile.php?id=61576289065160" target="_blank"><img src="fb.png" alt="Facebook"></a>
+      <a href="https://www.tiktok.com/@hans_.py" target="_blank"><img src="https://yourdomain.com/tiktok1.png" alt="TikTok"></a>
+      <a href="https://www.instagram.com/hakiman_nurkholis" target="_blank"><img src="https://yourdomain.com/ig.png" alt="Instagram"></a>
+      <a href="https://www.youtube.com/@Hans.pyyyyy" target="_blank"><img src="https://yourdomain.com/yt.png" alt="YouTube"></a>
+      <a href="https://github.com/hans-.pyy" target="_blank"><img src="https://yourdomain.com/gt.png" alt="GitHub"></a>
+      <a href="https://t.me/hans_.py" target="_blank"><img src="https://yourdomain.com/tl.png" alt="Telegram"></a>
+      <a href="https://www.facebook.com/profile.php?id=61576289065160" target="_blank"><img src="https://yourdomain.com/fb.png" alt="Facebook"></a>
     </div>
 
     <div class="buttons">
