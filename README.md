@@ -15,9 +15,9 @@
       padding: 0;
       height: 100%;
       font-family: 'Poppins', sans-serif;
-      color: white;
+      color: yellow;
       text-align: center;
-      background: black url('alok3.gif') no-repeat center center fixed;
+      background: yellow url('alok3.gif') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       justify-content: center;
@@ -87,7 +87,7 @@
     }
 
     .social-icons a img {
-      width: 100px;
+      width: 20px;
       margin: 0 5px;
       filter: brightness(0) invert(1);
       transition: transform 0.3s;
